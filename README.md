@@ -1,21 +1,21 @@
-# React + TypeScript + Vite + shadcn/ui
+# Список задач
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Приложение для управления задачами. Поддерживает добавление, выполнение, удаление и фильтрацию задач. Данные сохраняются в браузере.
 
-## Adding components
+## Стек
 
-To add components to your app, run the following command:
+React, TypeScript, Vite, Zustand, Tailwind CSS v4 и shadcn/ui. Структура проекта организована по Feature-Sliced Design.
+
+## Запуск
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `src/components` directory.
+## Проверки и сборка
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+```bash
+npm run lint
+npm run build
 ```
